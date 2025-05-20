@@ -27,7 +27,7 @@ public class Trail {
     @Enumerated
     private Region region;
     @ManyToOne
-    private TrailPackage trailPackage;
+    private TourPackage tourPackage;
 
     public Trail() {
     }
@@ -39,7 +39,7 @@ public class Trail {
                  double time,
                  Difficulty difficulty,
                  Region region,
-                 TrailPackage trailPackage) {
+                 TourPackage tourPackage) {
         this.name = name;
         this.description = description;
         this.keywords = keywords;
@@ -47,7 +47,7 @@ public class Trail {
         this.time = time;
         this.difficulty = difficulty;
         this.region = region;
-        this.trailPackage = trailPackage;
+        this.tourPackage = tourPackage;
     }
 
     private void setId(long id) {
