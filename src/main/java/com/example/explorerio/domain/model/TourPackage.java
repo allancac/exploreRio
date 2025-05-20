@@ -7,19 +7,22 @@ import lombok.Data;
 
 @Entity
 @Data
-public class TrailPackage {
+public class TourPackage {
 
     @Id
     @Column(length = 10)
     private String code;
     @Column()
     private String name;
+    @Column()
+    private Double price=0.0;
 
-    public TrailPackage() {
+    public TourPackage() {
     }
 
-    public TrailPackage(String code, String name) {
+    public TourPackage(String code, String name,Double price) {
         this.code = code;
         this.name = name;
+        this.price = price;
     }
 }
