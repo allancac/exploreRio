@@ -1,0 +1,52 @@
+[
+  {
+    "code": "RJTRZ1",
+    "name": "Trilha Pedra da Gávea",
+    "price": 150.0
+  },
+  {
+    "code": "RJTRZ2",
+    "name": "Trilha Pedra Bonita com Voo de Asa Delta (opcional)",
+    "price": 130.0
+  },
+  {
+    "code": "RJTRZ3",
+    "name": "Trilha Morro Dois Irmãos com Guia",
+    "price": 100.0
+  },
+  {
+    "code": "RJTRZ4",
+    "name": "Trilha Floresta da Tijuca – Pico da Tijuca",
+    "price": 120.0
+  },
+  {
+    "code": "RJTRZ5",
+    "name": "Trilha da Urca até o Pão de Açúcar",
+    "price": 90.0
+  },
+  {
+    "code": "RJTRZ6",
+    "name": "Trilha da Praia do Perigoso e Pedra da Tartaruga",
+    "price": 110.0
+  },
+  {
+    "code": "RJTRZ7",
+    "name": "Trilha da Pedra do Telégrafo com nascer do sol",
+    "price": 140.0
+  },
+  {
+    "code": "RJTRZ8",
+    "name": "Trilha Circuito das Praias Selvagens (Guaratiba)",
+    "price": 95.0
+  },
+  {
+    "code": "RJTRZ9",
+    "name": "Trilha da Cachoeira do Horto + Vista Chinesa",
+    "price": 85.0
+  },
+  {
+    "code": "RJTRZ10",
+    "name": "Trilha Pico do Papagaio – Ilha Grande",
+    "price": 160.0
+  }
+]
