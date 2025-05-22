@@ -2,9 +2,9 @@
   {
     "name": "Trilha Pedra da Gávea",
     "description": "Trilha desafiadora com trechos de escalada leve, levando ao topo de uma das maiores formações rochosas à beira-mar do mundo, com vista panorâmica do Rio.",
-    "tags": "montanha, mirante, floresta, aventura, zona sul",
-    "stops": 6,
-    "lengthKm": 6.5,
+    "keywords": "montanha, mirante, floresta, aventura, zona sul",
+    "distance": 6,
+    "time": 6.5,
     "difficulty": "difficult",
     "region": "south",
     "tourPackageCode": "RJTRZ1"
@@ -12,9 +12,9 @@
   {
     "name": "Trilha Pedra Bonita",
     "description": "Trilha de nível moderado que leva ao topo da Pedra Bonita, excelente para fotos e com opção de voo de asa delta.",
-    "tags": "mirante, floresta, aventura, asa delta",
-    "stops": 4,
-    "lengthKm": 2.5,
+    "keywords": "mirante, floresta, aventura, asa delta",
+    "distance": 3,
+    "time": 2.5,
     "difficulty": "medium",
     "region": "south",
     "tourPackageCode": "RJTRZ2"
@@ -22,9 +22,9 @@
   {
     "name": "Trilha Morro Dois Irmãos",
     "description": "Trilha curta com vista incrível das praias do Leblon e Ipanema, acessada pela comunidade do Vidigal.",
-    "tags": "mirante, favela tour, praia, floresta urbana",
-    "stops": 3,
-    "lengthKm": 1.6,
+    "keywords": "mirante, favela tour, praia, floresta urbana",
+    "distance": 2,
+    "time": 1.6,
     "difficulty": "easy",
     "region": "south",
     "tourPackageCode": "RJTRZ3"
@@ -32,9 +32,9 @@
   {
     "name": "Trilha da Pedra do Telégrafo",
     "description": "Famosa por suas fotos em perspectiva, essa trilha oferece vista para praias selvagens e costões rochosos.",
-    "tags": "mirante, foto, floresta, aventura, zona oeste",
-    "stops": 5,
-    "lengthKm": 3.5,
+    "keywords": "mirante, foto, floresta, aventura, zona oeste",
+    "distance": 4,
+    "time": 3.5,
     "difficulty": "medium",
     "region": "west",
     "tourPackageCode": "RJTRZ7"
@@ -42,9 +42,9 @@
   {
     "name": "Trilha Circuito das Praias Selvagens",
     "description": "Percurso costeiro que conecta as praias do Meio, Funda, Inferno e Perigoso. Um dos mais belos circuitos do Rio.",
-    "tags": "praia, floresta, costão, zona oeste, trilha longa",
-    "stops": 7,
-    "lengthKm": 8.0,
+    "keywords": "praia, floresta, costão, zona oeste, trilha longa",
+    "distance": 8,
+    "time": 4.0,
     "difficulty": "medium",
     "region": "west",
     "tourPackageCode": "RJTRZ8"
