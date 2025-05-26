@@ -1,5 +1,6 @@
 package com.example.explorerio;
 
+import com.example.explorerio.application.dto.tourpackage.TourPackageResponseDTO;
 import com.example.explorerio.devtools.seeder.DatabaseSeeder;
 import com.example.explorerio.application.service.TourPackageService;
 import com.example.explorerio.application.service.TrailService;
@@ -91,7 +92,7 @@ public class DevTestRunner implements CommandLineRunner {
             databaseSeeder.readTourPackagesJsonFile("src/main/resources/tourPackages.json");
             databaseSeeder.readTrailsJsonFile("src/main/resources/trails.json");
 
-            List<TourPackage> toursPacks = tourPackageService.getAllTourPackages();
+            List<TourPackageResponseDTO> toursPacks = tourPackageService.getAllTourPackages();
             toursPacks.forEach(System.out::println);
             System.out.println("*".repeat(80) + "\n");
 
