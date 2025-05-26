@@ -1,6 +1,7 @@
 package com.example.explorerio.devtools.seeder;
 
-import com.example.explorerio.application.dto.TrailRequestDTO;
+import com.example.explorerio.application.dto.tourpackage.TourPackageRequestDTO;
+import com.example.explorerio.application.dto.trail.TrailRequestDTO;
 import com.example.explorerio.application.service.TourPackageService;
 import com.example.explorerio.application.service.TrailService;
 
@@ -57,10 +58,10 @@ public class DatabaseSeeder {
                 }
         );
         tours.forEach( tourPck->{
-            tourPackageService.createTourPackage(
+            tourPackageService.createTourPackage(new TourPackageRequestDTO(
                     tourPck.getCode(),
                     tourPck.getName(),
-                    tourPck.getPrice()
+                    tourPck.getPrice())
 
             );
         });
